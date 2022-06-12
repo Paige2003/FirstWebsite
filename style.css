@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    background-color: #cafdff;
+}
+
+a{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+.logo{
+    width: 300px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+header{
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 72px;
+}
+
+.subheading{
+    font-size: 36px;
+    margin: 16px 0px 24px 0px;
+}
+
+button{
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#about,
+#discord,
+#contact,
+footer{
+    padding: 48px 0px;
+}
+
+/*
+About
+*/
+
+#about{
+    background-color: #f8ffdc;
+}
+
+h2{
+    font-size: 62px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__img--wrapper{
+    width: 40%;
+    padding: 0px 24px;
+}
+
+image{
+    width: 100%;
+}
+
+.section__des-wrapper{
+    width: 60%;
+    padding: 0px 24px;
+    
+}
+
+.section__des-para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/*
+Discord
+*/
+
+#discord{
+    background-color: #cefeff;
+
+}
+
+/*
+Contact
+*/
+
+#contact{
+    background-color: #dec9ff;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;   
+}
+
+input, textarea{
+    margin-bottom: 24px;
+    font-size: 24px;
+    width: 100%;
+    padding: 6px 12px;
+}
+
+/*
+Footer
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo{
+    max-width: 400px;
+    margin-bottom: 16px;
+}
+
+.footer__links{
+    margin-bottom: 32px;
+}
+
+.footer__link{
+    padding: 0px 16px;
+
+}
