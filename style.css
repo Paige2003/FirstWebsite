@@ -140,6 +140,7 @@ Contact
     flex-direction: column;
     justify-content: center;
     margin: 0px auto;   
+    padding: 0px 24px;
 }
 
 input, textarea{
@@ -172,4 +173,57 @@ footer{
 .footer__link{
     padding: 0px 16px;
 
+}
+
+/* small phone, tablets, large smartphone*/
+
+@media(max-width:728px ){
+.row{
+    flex-direction: column;
+}
+
+.home__des{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__des-button{
+    max-width: 240px;
+
+}
+h1{
+    text-align: center;
+    font-size: 62px;
+}
+
+.subheading{
+    text-align: center;
+    font-size: 32px;
+}
+
+.nav__links{
+    display: none;
+}
+
+.section__des{
+    flex-direction: column;
+}
+
+.section__des-wrapper{
+    width: 100%;
+}
+
+.about__img--wrapper{
+    width: 100%;
+}
+
+#discord .section__des{
+    flex-direction: column-reverse;
+}
+
+.footer__links{
+    padding: 0px 8px;
+    
+}
 }
